@@ -4,7 +4,7 @@ import telegram from "../../assets/telegram.svg";
 import viber from "../../assets/viber.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import logo_welbex from "../../assets/logo_welbex.png";
-import "./styles.css";
+import "./styles.scss";
 
 function Header() {
   return (

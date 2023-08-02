@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+$color-primary: #4077f3;
+$color-secondary: #737a8e;
+$color-accent: #ff6600;
+$color-background: #000000;
+$color-text: #e4e5ea;
+$color-heading: #333;
+$font-primary: Montserrat, sans-serif;
+$font-secondary: Inter, sans-serif;
+
+.container {
+  display: flex;
+  color: $color-text;
+  &__info-text {
+    width: 291px;
+    text-align: right;
+    font-family: $font-secondary;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__info-HigtText {
+    color: $color-accent;
+  }
+
+  &__info-title {
+    font-size: 18px;
+    text-align: right;
+  }
+  &__info-subtext {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  &__info-list {
+    column-count: 2;
+    flex-wrap: wrap;
+    width: 291px;
+  }
+
+  &__info-link {
+    list-style: none;
+    flex-basis: 48%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  &__info-btn {
+    background: $color-primary;
+    color: #ffffff;
+    border: none;
+    white-space: nowrap;
+    min-width: 262px;
+    height: 61px;
+    cursor: pointer;
+    margin-top: 31px;
+    margin-bottom: 61px;
+  }
+}
+
+.info {
+  display: flex;
+  color: $color-secondary;
+  align-items: center;
+
+  &__title {
+    width: 365px;
+    text-align: left;
+    color: $color-text;
+    font-family: $font-primary;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__title-main {
+    max-width: 88px;
+    font-size: 24px;
+    font-weight: bold;
+    color: $color-heading;
+    margin: 94px 0 30px 0;
+  }
+
+  &__more,
+  &__more-text {
+    color: $color-text;
+  }
+
+  &__more-text {
+    max-width: 200px;
+    margin-top: 105px;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__subtitle {
+    display: flex;
+    width: 275px;
+    color: $color-text;
+    font-family: $font-primary;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+}
+
+.highlight-text {
+  font-size: 18px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+// &:before {
+//   content: "-";
+//   margin-right: 5px;
+// }

@@ -1,6 +1,6 @@
 //import logo from "./logo.svg";
 // import "../components/Info/styles.css";
-import "./styles.css";
+import "./styles.scss";
 
 function TitleInfo() {
   return (

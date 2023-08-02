@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import telegram from "../../assets/telegram.svg";
 import viber from "../../assets/viber.svg";
 import whatsapp from "../../assets/whatsapp.svg";
@@ -33,10 +33,11 @@ function Footer() {
       <div className="footer__block">
         <p className="footer__block-chapter">Контакты</p>
         <p className="footer__block-phone">+7 555 555-55-55</p>
-        <img className="footer__block-img" src={telegram} />
-        <img className="footer__block-img" src={viber} />
-        <img className="footer__block-img" src={whatsapp} />
-
+        <div className="footer__block-img">
+          <img className="footer__element-img" src={telegram} />
+          <img className="footer__element-img" src={viber} />
+          <img className="footer__element-img" src={whatsapp} />
+        </div>
         <p className="footer__block-location">
           Москва, Путевой проезд 3с1, к 902
         </p>
