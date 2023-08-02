@@ -23,7 +23,7 @@ function Header() {
         <li className="header__link">Сертификаты</li>
       </ul>
       <div className="header__contacts">
-        <p className="footer__phone">+7 555 555-55-55</p>
+        <p className="header__phone">+7 555 555-55-55</p>
         <img className="header__img" src={telegram} />
         <img className="header__img" src={viber} />
         <img className="header__img" src={whatsapp} />
