@@ -47,13 +47,25 @@ $font-secondary: Inter, sans-serif;
     column-count: 2;
     flex-wrap: wrap;
     width: 291px;
+    padding-left: 0;
+    list-style: none;
   }
 
   &__info-link {
+    text-align: right;
     list-style: none;
     flex-basis: 48%;
     box-sizing: border-box;
     padding: 10px;
+    position: relative;
+  }
+
+  &__info-link::before {
+    text-align: right;
+    content: "- ";
+    position: absolute;
+    left: 0;
+    color: $color-accent;
   }
 
   &__info-btn {

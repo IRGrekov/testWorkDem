@@ -1,0 +1,17 @@
+html {
+  height: calc(100% - 16px);
+}
+
+.App {
+  text-align: center;
+  background: url("./assets/Background.png");
+  background-size: cover;
+  background-color: #0E1014;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.App__wrapeer {
+  max-width: 1141px;
+}
