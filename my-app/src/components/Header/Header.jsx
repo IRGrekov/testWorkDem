@@ -9,7 +9,7 @@ import "./styles.scss";
 function Header() {
   return (
     <div className="header">
-      <div className="header_logo">
+      <div className="header__logo">
         <img className="header__logo-img" src={logo_welbex} />
         <p className="header__logo_text">
           крупный интегратор CRM в Росcии и ещё 8 странах

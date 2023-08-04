@@ -1,6 +1,4 @@
-html{
-  height: calc(100% - 16px) ;
-}
+
 .App {
   text-align: center;
   background: url('./assets/Background.png');
@@ -12,4 +10,22 @@ html{
 }
 .App__wrapeer{
   max-width: 1141px;
+}
+
+.fs-1{
+  font-size: 48px;
+}
+.fw-bold{
+  font-weight: 900;
+}
+.fw-semibold{
+
+}
+.fw-normal{
+  
+}
+@media screen and(max-width:1000px) {
+  .fs-1{
+    font-size: 30px;
+  }
 }

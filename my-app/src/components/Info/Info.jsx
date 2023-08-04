@@ -27,8 +27,9 @@ function Info() {
   return (
     <div className="container">
       <TitleInfo />
-      <TitleMoreInfoMobile />
+      {/* <TitleMoreInfoMobile /> */}
       {/* {isMobile ? <TitleMoreInfoMobile /> : <TitleMoreInfo />} */}
+      <TitleMoreInfo/>
     </div>
   );
 }

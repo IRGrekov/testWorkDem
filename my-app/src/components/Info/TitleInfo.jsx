@@ -5,9 +5,10 @@ import "./styles.scss";
 function TitleInfo() {
   return (
     <div className="container__title">
-      <h1 className="info__title">
+      <h1 className="info__title fs-1">
         Зарабатывайте больше
-        <span className="highlight-text"> сWELBEX</span>
+        <br/>
+        <span className="highlight-text"> с WELBEX</span>
       </h1>
       <p className="info__subtitle">Развиваем и контролируем продажи за вас</p>
     </div>

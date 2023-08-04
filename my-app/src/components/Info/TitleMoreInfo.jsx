@@ -26,7 +26,7 @@ function TitleMoreInfo() {
         </li>
         <li className="container__info-link">
           <p className="container__info-title">Skype Аудит</p>
-          <p className="container__info-subtext">отдела продаж CRM системы</p>
+          <p className="container__info-subtext">отдела продаж и CRM системы</p>
         </li>
         <li className="container__info-link">
           <p className="container__info-title">35 дней</p>
