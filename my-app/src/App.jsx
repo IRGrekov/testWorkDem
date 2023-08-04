@@ -1,4 +1,3 @@
-//import logo from "./logo.svg";
 import Header from "./components/Header/Header";
 import Info from "./components/Info/Info";
 import Footer from "./components/Footer/Footer";
@@ -11,7 +10,6 @@ function AppMobile() {
         <Header />
         <Info />
         <Footer />
-        {/* <App1 /> */}
       </div>
     </div>
   );

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+p {
+  margin: 0;
+}
+
+li {
+  padding: 0 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: #e4e5ea;
+  margin-bottom: 69px;
+}
+.container__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #e4e5ea;
+}
+.container__info-text {
+  margin-bottom: 40px;
+  width: 291px;
+  text-align: right;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container__info-higtText {
+  background: -webkit-linear-gradient(rgb(252, 176, 69), rgb(255, 63, 120));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__info-title {
+  margin-bottom: 6px;
+  font-size: 18px;
+  text-align: right;
+}
+.container__info-subtext {
+  font-size: 16px;
+  text-align: right;
+}
+.container__info-list {
+  -moz-column-count: 2;
+       column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-left: 0;
+  list-style: none;
+  max-width: 400px;
+  margin-bottom: 56px;
+}
+.container__info-link:nth-child(1), .container__info-link:nth-child(3) {
+  margin-right: 30px;
+}
+.container__info-link {
+  margin-bottom: 30px;
+  text-align: right;
+  list-style: none;
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.container__info-moList {
+  -moz-column-count: 2;
+       column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  max-width: 400px;
+  margin-bottom: 56px;
+}
+.container__info-moLink {
+  margin-bottom: 30px;
+  text-align: right;
+  list-style: none;
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+}
+.container__info-moLink::before {
+  text-align: right;
+  content: "- ";
+  position: absolute;
+  margin-left: -10px;
+  color: #ff6600;
+}
+.container__info-btn {
+  background: #4077f3;
+  color: #ffffff;
+  border: none;
+  white-space: nowrap;
+  width: 262px;
+  height: 61px;
+  cursor: pointer;
+  margin-bottom: 61px;
+  margin-left: 0;
+}
+.container__info-subtext {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info {
+  display: flex;
+  color: #737a8e;
+  align-items: center;
+}
+.info__title {
+  max-width: 362px;
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #e4e5ea;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.info__title-main {
+  max-width: 88px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 94px 0 30px 0;
+}
+.info__more, .info__more-text {
+  color: #e4e5ea;
+}
+.info__more-text {
+  max-width: 200px;
+  margin-top: 105px;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.info__subtitle {
+  text-align: start;
+  display: flex;
+  max-width: 275px;
+  color: #e4e5ea;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.highlight-text {
+  background: -webkit-linear-gradient(rgb(252, 176, 69), rgb(255, 63, 120));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  direction: rtl;
+  white-space: nowrap;
+  font-size: 18px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 816px) {
+  .container {
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+  }
+  .container__info {
+    margin-top: 20px;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  .container__info-text {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .container__info-moLink {
+    text-align: left;
+    margin-left: 10px;
+  }
+}
