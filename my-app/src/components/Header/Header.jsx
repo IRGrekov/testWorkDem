@@ -12,18 +12,18 @@ function Header() {
       <div className="header__logo">
         <img className="header__logo-img" src={logo_welbex} />
         <p className="header__logo_text">
-          крупный интегратор CRM в Росcии и ещё 8 странах
+          крупный интегратор CRM в Росcии и ещё 8 странах
         </p>
       </div>
       <ul className="header__item">
-        <li className="header__link">Услуги</li>
-        <li className="header__link">Виджеты</li>
-        <li className="header__link">Интеграции</li>
-        <li className="header__link">Кейсы</li>
-        <li className="header__link">Сертификаты</li>
+        <li className="header__link fs-4 ">Услуги</li>
+        <li className="header__link fs-4 ">Виджеты</li>
+        <li className="header__link fs-4 ">Интеграции</li>
+        <li className="header__link fs-4 ">Кейсы</li>
+        <li className="header__link fs-4 ">Сертификаты</li>
       </ul>
       <div className="header__contacts">
-        <p className="header__phone">+7 555 555-55-55</p>
+        <p className="header__phone">+7 555 555-55-55</p>
         <img className="header__img" src={telegram} />
         <img className="header__img" src={viber} />
         <img className="header__img" src={whatsapp} />

@@ -9,7 +9,7 @@ function Info() {
 
   useEffect(() => {
     const handleResize = () => {
-      const newIsMobile = window.innerWidth < 900;
+      const newIsMobile = window.innerWidth < 816;
       console.log("New isMobile value:", newIsMobile);
       setIsMobile(newIsMobile);
     };
@@ -28,8 +28,8 @@ function Info() {
     <div className="container">
       <TitleInfo />
       {/* <TitleMoreInfoMobile /> */}
-      {/* {isMobile ? <TitleMoreInfoMobile /> : <TitleMoreInfo />} */}
-      <TitleMoreInfo/>
+      {isMobile ? <TitleMoreInfoMobile /> : <TitleMoreInfo />}
+      {/* <TitleMoreInfo/> */}
     </div>
   );
 }

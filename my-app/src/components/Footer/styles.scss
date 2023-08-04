@@ -64,6 +64,9 @@ $color-secondary: #e4e5ea;
         cursor: pointer;
       }
     }
+    &-phone {
+      text-align: end;
+    }
 
     &-copyright {
       margin-bottom: 5px;
@@ -89,10 +92,20 @@ $color-secondary: #e4e5ea;
     margin-right: 10px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 815px) {
     flex-direction: column;
-    align-items: center;
-
+    align-items: flex-start;
+    padding: 0px 15px;
+    .footer__block-copyright,
+    .footer__block-phone,
+    .footer__block-phone,
+    .footer__block-img {
+      text-align: left;
+      margin-bottom: 9px;
+    }
+    .footer__block-location {
+      margin-bottom: 50px;
+    }
     &__block {
       margin: 10px 0;
     }

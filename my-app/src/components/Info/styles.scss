@@ -37,7 +37,7 @@ li {
     font-weight: 500;
     line-height: normal;
   }
-  &__info-HigtText {
+  &__info-higtText {
     background: -webkit-linear-gradient(rgba(252, 176, 69, 1), rgba(255, 63, 120, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -78,20 +78,47 @@ li {
     position: relative;
   }
 
-  // &__info-link::before {
-  //   text-align: right;
-  //   content: "- ";
-  //   position: absolute;
-  //   left: 0;
-  //   color: $color-accent;
-  // }
+  &__info-moList {
+    column-count: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    max-width: 400px;
+    margin-bottom: 56px;
+  }
+
+  &__info-moLink {
+    margin-bottom: 30px;
+    text-align: right;
+    list-style: none;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+  }
+
+  &__info-moLink::before {
+    text-align: right;
+    content: "- ";
+    position: absolute;
+    margin-left: -10px;
+    color: $color-accent;
+  }
 
   &__info-btn {
     background: $color-primary;
     color: #ffffff;
     border: none;
     white-space: nowrap;
-    min-width: 262px;
+    width: 262px;
     height: 61px;
     cursor: pointer;
     margin-bottom: 61px;
@@ -154,7 +181,7 @@ li {
     max-width: 275px;
     color: $color-text;
     font-family: $font-primary;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -174,6 +201,29 @@ li {
   font-weight: 900;
   line-height: normal;
   font-weight: bold;
+}
+
+@media screen and (max-width: 816px) {
+  .container {
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+  }
+
+  .container__info {
+    margin-top: 20px;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  .container__info-text {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .container__info-moLink {
+    text-align: left;
+    margin-left: 10px;
+  }
 }
 
 // &:before {

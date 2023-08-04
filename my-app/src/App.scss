@@ -1,31 +1,48 @@
-
 .App {
   text-align: center;
-  background: url('./assets/Background.png');
-  background-size:cover ;
-  background-color: #0E1014;
-  font-family: 'Inter', sans-serif ;
+  background: url("./assets/Background.png");
+  background-size: cover;
+  background-color: #0e1014;
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
 }
-.App__wrapeer{
+.App__wrapeer {
   max-width: 1141px;
 }
 
-.fs-1{
+.fs-1 {
   font-size: 48px;
 }
-.fw-bold{
+.fs-2 {
+  font-size: 18px;
+}
+
+.fs-3 {
+  font-size: 16px;
+}
+.fs-4 {
+  font-size: 16px;
+}
+
+.fw-bold {
   font-weight: 900;
 }
-.fw-semibold{
-
+.fw-semibold {
 }
-.fw-normal{
-  
+.fw-normal {
 }
 @media screen and(max-width:1000px) {
-  .fs-1{
-    font-size: 30px;
+  .fs-1 {
+    font-size: 36px;
+  }
+  .fs-2 {
+    font-size: 16px;
+  }
+  .fs-3 {
+    font-size: 13px;
+  }
+  .fs-4 {
+    font-size: 12px;
   }
 }
