@@ -1,0 +1,3 @@
+[start]
+command = "npm run start"
+publish = "start"
