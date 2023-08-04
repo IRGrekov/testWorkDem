@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./styles.scss";
 import TitleInfo from "./TitleInfo";
 import TitleMoreInfo from "./TitleMoreInfo";
 import TitleMoreInfoMobile from "./TitleMoreInfoMobile";
+import "./styles.scss";
 
 function Info() {
   const [isMobile, setIsMobile] = useState(false);
@@ -27,9 +27,7 @@ function Info() {
   return (
     <div className="container">
       <TitleInfo />
-      {/* <TitleMoreInfoMobile /> */}
       {isMobile ? <TitleMoreInfoMobile /> : <TitleMoreInfo />}
-      {/* <TitleMoreInfo/> */}
     </div>
   );
 }

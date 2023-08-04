@@ -1,5 +1,3 @@
-//import logo from "./logo.svg";
-//import "./App.css";
 import telegram from "../../assets/telegram.svg";
 import viber from "../../assets/viber.svg";
 import whatsapp from "../../assets/whatsapp.svg";

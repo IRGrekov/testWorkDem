@@ -8,12 +8,15 @@ $color-text: #e4e5ea;
 $color-heading: #333;
 $font-primary: Montserrat, sans-serif;
 $font-secondary: Inter, sans-serif;
+
 p {
   margin: 0;
 }
+
 li {
   padding: 0 !important;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -48,6 +51,7 @@ li {
     font-size: 18px;
     text-align: right;
   }
+
   &__info-subtext {
     font-size: 16px;
     text-align: right;
@@ -68,6 +72,7 @@ li {
   &__info-link:nth-child(3) {
     margin-right: 30px;
   }
+
   &__info-link {
     margin-bottom: 30px;
     text-align: right;
@@ -216,17 +221,14 @@ li {
     text-align: left;
     margin-bottom: 0px;
   }
+
   .container__info-text {
     text-align: left;
     margin-bottom: 20px;
   }
+
   .container__info-moLink {
     text-align: left;
     margin-left: 10px;
   }
 }
-
-// &:before {
-//   content: "-";
-//   margin-right: 5px;
-// }

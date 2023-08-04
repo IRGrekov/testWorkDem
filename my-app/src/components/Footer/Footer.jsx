@@ -1,7 +1,7 @@
-import "./styles.scss";
 import telegram from "../../assets/telegram.svg";
 import viber from "../../assets/viber.svg";
 import whatsapp from "../../assets/whatsapp.svg";
+import "./styles.scss";
 
 function Footer() {
   return (
